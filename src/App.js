@@ -5,9 +5,12 @@ import PageWrapper from './PageWrapper';
 
 import peliculasJson from './peliculas.json';
 import Paginacion from './Paginacion';
+import { useState } from 'react';
 
 function App() {
+	const [paginaActual,setPaginaActual]=useState(1);
 	let peliculas=peliculasJson;
+	
   return(
 	<PageWrapper>
 		{peliculas.map(pelicula =>
@@ -17,8 +20,8 @@ function App() {
 				{pelicula.descripcion}
 		</Pelicula>
 		)}
-		<Paginacion pagina={2} total={4} onChanage={(pagina) =>{
-			alert();
+		<Paginacion pagina={paginaActual} total={4} onChange={(pagina) =>{
+			setPaginaActual(pagina);
 		}}/>
 	</PageWrapper>
   );
