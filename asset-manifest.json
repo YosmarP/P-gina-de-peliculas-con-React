@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tienda-online-React/static/css/main.073c9b0a.css",
+    "main.js": "/Tienda-online-React/static/js/main.b1325e39.js",
+    "static/js/787.1e48b0fa.chunk.js": "/Tienda-online-React/static/js/787.1e48b0fa.chunk.js",
+    "index.html": "/Tienda-online-React/index.html",
+    "main.073c9b0a.css.map": "/Tienda-online-React/static/css/main.073c9b0a.css.map",
+    "main.b1325e39.js.map": "/Tienda-online-React/static/js/main.b1325e39.js.map",
+    "787.1e48b0fa.chunk.js.map": "/Tienda-online-React/static/js/787.1e48b0fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b1325e39.js"
+  ]
+}
